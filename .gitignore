@@ -1,0 +1,38 @@
+# Swap files
+*.swp
+*.swo
+*.swn
+
+# Backup files
+*~
+*.bak
+
+# Undo history
+undo/
+*.un~
+
+# Sessions
+Session.vim
+
+# Vim info
+.viminfo
+
+# Plugin installs (ignore downloaded plugins)
+autoload/
+plugged/
+bundle/
+pack/*/start/*
+pack/*/opt/*
+
+# Caches / runtime data
+swap/
+backup/
+undo/
+coc/
+lsp/
+.netrwhist
+*.patch
+
+# OS junk
+.DS_Store
+Thumbs.db
