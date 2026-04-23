@@ -20,3 +20,8 @@ command! Lazygit FloatermNew --width=0.99 --height=0.99 --name=lazygit --autoclo
 
 " Open lazygit
 nnoremap <silent> <Leader>gg :Lazygit<CR>
+
+" Open terminal
+nnoremap <silent> <Leader>ft :FloatermToggle<CR>
+nnoremap <silent> <Esc>[47;5u :FloatermToggle<CR>
+tnoremap <silent> <Esc>[47;5u <C-\><C-n>:FloatermToggle<CR>
